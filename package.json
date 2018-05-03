@@ -1,0 +1,22 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloplata1631/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloplata1631/Bamazon/issues"
+  },
+  "homepage": "https://github.com/pabloplata1631/Bamazon#readme",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}
