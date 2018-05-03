@@ -13,11 +13,12 @@ var connection = mysql.createConnection({
 connection.connect(function(err){
     if (err) throw err;
     console.log("Connection is Working");
+    // below call out function
     table();
    
 })
 
-// table function from mysql databe 
+// table function from mysql database to print when node ex.js
 var table = function(){
     connection.query("SELECT * FROM products", function(err,res){
         for(var i=0; i <res.length; i++){
