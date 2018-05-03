@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "ex.js",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0",
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,9 +21,5 @@
   "bugs": {
     "url": "https://github.com/pabloplata1631/Bamazon/issues"
   },
-  "homepage": "https://github.com/pabloplata1631/Bamazon#readme",
-  "dependencies": {
-    "inquirer": "^5.2.0",
-    "mysql": "^2.15.0"
-  }
+  "homepage": "https://github.com/pabloplata1631/Bamazon#readme"
 }
